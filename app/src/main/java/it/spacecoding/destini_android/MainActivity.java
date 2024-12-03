@@ -44,14 +44,14 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 1:
                         storyTextView.setText(R.string.T4_End);
-                        mTopButton.setText(" ");
-                        mBottomButton.setText(" ");
+                        mTopButton.setVisibility(View.GONE);
+                        mBottomButton.setVisibility(View.GONE);
                         mIndex = -1;
                         break;
                     case 2:
                         storyTextView.setText(R.string.T6_End);
-                        mTopButton.setText(" ");
-                        mBottomButton.setText(" ");
+                        mTopButton.setVisibility(View.GONE);
+                        mBottomButton.setVisibility(View.GONE);
                         mIndex = 1;
                         break;
                 }
@@ -70,15 +70,15 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 1:
                         storyTextView.setText(R.string.T4_End);
-                        mTopButton.setText(" ");
-                        mBottomButton.setText(" ");
-                        mIndex = -1;
+                        mTopButton.setVisibility(View.GONE);
+                        mBottomButton.setVisibility(View.GONE);
+                        //mIndex = -1;
                         break;
                     case 2:
                         storyTextView.setText(R.string.T5_End);
-                        mTopButton.setText(" ");
-                        mBottomButton.setText(" ");
-                        mIndex = -1;
+                        mTopButton.setVisibility(View.GONE);
+                        mBottomButton.setVisibility(View.GONE);
+                        //mIndex = -1;
                         break;
                 }
             }
