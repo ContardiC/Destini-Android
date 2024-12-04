@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mBottomButton;
     private int mIndex = 0;
 
-
+    // TODO: add ImageAssets
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
